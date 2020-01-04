@@ -1,0 +1,20 @@
+#TxtAc {
+    margin: auto;
+    margin-top: 1rem;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 1rem;
+}
+mat-card {
+    margin-top: 1rem;
+    margin: auto;
+    width: 70%;
+}
+
+.card1{
+    margin-bottom: 1rem;
+}
+
+.card2 {
+    margin-top: 1rem;
+}

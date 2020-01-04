@@ -1,0 +1,24 @@
+/*li {
+    display: inline;
+    margin-left: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: initial;
+}
+
+div {
+    background-color: dodgerblue;
+    height: 10%;
+    margin-bottom: 1rem;
+}*/
+
+.fill-remaining-sapce {
+    flex: 1 1 auto;
+}
+
+mat-toolbar {
+    margin-bottom: 1rem;
+}
+/*
+.space-right {
+    flex: 1 auto;
+}*/

@@ -1,0 +1,25 @@
+<mat-toolbar color='primary'>
+    <span>E.Learn</span>
+    <mat-icon></mat-icon>
+    <span>
+        <button 
+        mat-raised-button 
+        [routerLink]="['/acceuil']" 
+        routerLinkActive="router-link-active">Acceuil</button>
+    </span>
+
+    <span class="fill-remaining-sapce">
+        <button 
+        mat-raised-button 
+        color="warn" 
+        [routerLink]="['/cours']" 
+        routerLinkActive="router-link-active" >Cours</button>
+    </span>
+    <span>
+        <button 
+        mat-raised-button 
+        color="accent" 
+        [routerLink]="['/compte']" 
+        routerLinkActive="router-link-active" >Compte</button>
+    </span>
+</mat-toolbar>
