@@ -7,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoursComponent implements OnInit {
   title="";
+
+  cours = [
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+    {Title:"Cours 1", description:"test de la description du cours", Titu:"Tonio"},
+  ];
   
   constructor() { }
 

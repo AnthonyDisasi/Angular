@@ -1,0 +1,17 @@
+.cardImage {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    margin: auto;
+}
+
+.cardCourses {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+mat-accordion {
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+}

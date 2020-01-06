@@ -5,7 +5,8 @@ import {
   MatButtonModule,
   MatCardModule,
   MatToolbarModule,
-  MatMenuModule } from '@angular/material';
+  MatMenuModule,
+  MatExpansionModule,} from '@angular/material';
   import { MatIconModule } from "@angular/material/icon";
   import { RouterModule } from "@angular/router";
 
@@ -39,7 +40,8 @@ import { CompteComponent } from './compte/compte.component'
     MatToolbarModule,
     MatMenuModule,
     MatIconModule,
-    RouterModule
+    RouterModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
