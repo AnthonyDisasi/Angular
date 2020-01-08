@@ -34,14 +34,14 @@
       <input type="password" matInput="password">
     </mat-form-field>
     <br>
-    <button mat-raised-button color="primary" type="submit">Registrer</button>
+    <button mat-raised-button color="primary" type="submit" [routerLink]="['/notfound']" routerLinkActive="router-link-active" >Registrer</button>
     <br>
-    <button mat-raised-button color="accent" type="reset">Sign in</button>
+    <button mat-raised-button color="accent" type="reset" [routerLink]="['/connexion']" routerLinkActive="router-link-active" >Sign in</button>
     <br>
     <label class="separator">registrer with</label><br>
   </form>
 
-  <h3 class="FormFooterLink"><a href="#" mat-subheading-1>Facebook</a></h3>
+  <h3 class="FormFooterLink"><a [routerLink]="['/notfound']" routerLinkActive="router-link-active"  mat-subheading-1>Facebook</a></h3>
   <span class="OrSeparator">-OR-</span>
-  <h3 class="FormFooterLink"><a href="#" mat-subheading-1>Google</a></h3>
+  <h3 class="FormFooterLink"><a [routerLink]="['/notfound']" routerLinkActive="router-link-active"  mat-subheading-1>Google</a></h3>
 </mat-card>
