@@ -1,0 +1,43 @@
+mat-card {
+  margin: auto;
+  margin-top: 2rem;
+  width: 30%;
+}
+
+mat-card-title {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: auto;
+  margin-left: 30%;
+}
+
+mat-form-field {
+  margin: auto;
+  width: 70%;
+  margin-left: 15%;
+}
+
+button {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  margin-left: 30%;
+  width: 35%;
+}
+
+.separator {
+  margin-left: 35%;
+  margin-top: 2rem;
+}
+
+.FormFooterLink {
+  margin-left: 35%;
+  width: 35%;
+}
+
+.OrSeparator {
+  margin-left: 40%;
+}

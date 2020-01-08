@@ -1,0 +1,11 @@
+{
+  "name": "sever_backend",
+  "version": "1.0.0",
+  "description": "le  back end du projet(connetion a la bd)",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ELiezer BWANA",
+  "license": "ISC"
+}

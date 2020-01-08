@@ -6,7 +6,9 @@ import {
   MatCardModule,
   MatToolbarModule,
   MatMenuModule,
-  MatExpansionModule,} from '@angular/material';
+  MatExpansionModule,
+  MatInputModule,
+  MatFormFieldModule} from '@angular/material';
   import { MatIconModule } from "@angular/material/icon";
   import { RouterModule } from "@angular/router";
 
@@ -17,7 +19,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoursComponent } from './cours/cours.component';
-import { CompteComponent } from './compte/compte.component'
+import { CompteComponent } from './compte/compte.component';
+import { ConnexionComponent } from './connexion/connexion.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 
 @NgModule({
@@ -27,7 +31,9 @@ import { CompteComponent } from './compte/compte.component'
     HeaderComponent,
     FooterComponent,
     CoursComponent,
-    CompteComponent
+    CompteComponent,
+    ConnexionComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +48,8 @@ import { CompteComponent } from './compte/compte.component'
     MatIconModule,
     RouterModule,
     MatExpansionModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
