@@ -1,7 +1,7 @@
-<h1>cours works!</h1>
+<!--<h1>cours works!</h1>-->
 <!--liste des cours-->
 <mat-card class="cardImage">
-    <h3>Image des type etudes </h3>
+    <h3 class="title">Image des type etudes </h3>
 </mat-card>
 <!--<mat-card class="cardCourses">
     <mat-card-title>
@@ -22,7 +22,7 @@
 </mat-card>-->
 
 <mat-accordion>
-    <mat-expansion-panel *ngFor="let cour of cours">
+    <mat-expansion-panel class="matlistcours" *ngFor="let cour of cours">
         <mat-expansion-panel-header>
            <h4>{{cour.Title}}</h4>
         </mat-expansion-panel-header>
@@ -32,7 +32,7 @@
         <p>
             {{cour.Titu}}
         </p>
-        <button mat-raised-button color="primary" [routerLink]="['/compte']" routerLinkActive="router-link-active" ></button>
+        <button mat-raised-button color="primary" [routerLink]="['/connexion']" routerLinkActive="router-link-active" >Learn</button>
     </mat-expansion-panel>
 </mat-accordion>
 

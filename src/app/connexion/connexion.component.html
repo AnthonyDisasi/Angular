@@ -1,3 +1,18 @@
-<mat-card>
-    <h1>Connxion work very well!</h1>
+<mat-card class="matcardConnexion">
+  <form action="#" method="post">
+    <mat-form-field>
+      <mat-label>User Name</mat-label>
+      <input class="connectipnut" type="text" matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input class="connectipnut" type="password" matInput>
+    </mat-form-field>
+    <br>
+    <button class="btnconnect" mat-raised-button color="primary">Connection</button>
+    <br>
+    <a mat-raised-button color="accent"  [routerLink]="['/compte']"
+       routerLinkActive="router-link-active" >creer compte</a>
+  </form>
 </mat-card>

@@ -1,6 +1,6 @@
 mat-card {
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 30%;
 }
 
@@ -32,6 +32,8 @@ button {
   margin-left: 35%;
   margin-top: 2rem;
 }
+
+
 
 .FormFooterLink {
   margin-left: 35%;

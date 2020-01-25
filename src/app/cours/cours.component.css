@@ -1,23 +1,41 @@
 .cardImage {
-    margin-top: 3rem;
-    margin-bottom: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 9rem;
     margin: auto;
+    width: 80%;
 }
 
 .cardCourses {
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    width: 50%;
 }
 
 mat-accordion {
     margin: auto;
     margin-bottom: 2rem;
     margin-top: 6rem;
+    width: 80%;
 }
 
 mat-card {
   margin-top: 3rem;
   margin-bottom: 6rem;
   margin: auto;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.matlistcours {
+  margin-left: 25%;
+  margin-top: 2rem;
+  width:50%;
+}
+
+.title {
+  margin-bottom: 9rem;
 }

@@ -1,0 +1,46 @@
+.matcardConnexion {
+  margin: auto;
+  width: 20%;
+  margin-top: 10rem;
+  margin-bottom: 19rem;
+}
+
+h1 {
+  padding: auto;
+  color: darkred;
+}
+
+.btn-connection:-moz-drag-over {
+  color: white;
+  width: 80%;
+}
+
+mat-form-field {
+  width: 90%;
+  margin-top: 2rem;
+}
+
+button {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 27%;
+
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+a {
+  margin-left: 25%;
+}
+
+a:hover {
+  background: white;
+  color: black;
+
+}
+
+

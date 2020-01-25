@@ -10,10 +10,11 @@ const routes: Routes = [
   {path: 'cours', component: CoursComponent},
   {path: 'acceuil', component: AcceuilComponent},
   {path: 'compte', component: CompteComponent},
+  {path: 'connexion', component: ConnexionComponent},
+  {path: 'notfound', component: NotfoundComponent},
   {path: '', redirectTo: '/acceuil', pathMatch: 'full'},
   {path: '**', component: AcceuilComponent},
-  {path: 'connexion', component: ConnexionComponent},
-  {path: 'notfound', component: NotfoundComponent}
+
 ];
 
 @NgModule({
